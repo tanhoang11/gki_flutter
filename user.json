@@ -1,0 +1,92 @@
+[
+    {
+        "id": "1",
+        "full_name": "Phạm Tấn Hoàng",
+        "email": "phamtanhoang@example.com",
+        "password": "password123",
+        "phone_number": "0987654321",
+        "address": "123 Trần Phú, Đà Lạt",
+        "country": "Vietnam"
+    },
+    {
+        "id": "2",
+        "full_name": "Nguyễn Văn A",
+        "email": "nguyenvana@example.com",
+        "password": "password789",
+        "phone_number": "0945678910",
+        "address": "789 Lê Lợi, TP Hồ Chí Minh",
+        "country": "Vietnam"
+    },
+    {
+        "id": "3",
+        "full_name": "Trần Thị B",
+        "email": "tranthib@example.com",
+        "password": "securepass456",
+        "phone_number": "0961234567",
+        "address": "456 Nguyễn Huệ, Hà Nội",
+        "country": "Vietnam"
+    },
+    {
+        "id": "4",
+        "full_name": "Lê Minh Cường",
+        "email": "leminhcuong@example.com",
+        "password": "pass321",
+        "phone_number": "0934567890",
+        "address": "321 Điện Biên Phủ, Đà Nẵng",
+        "country": "Vietnam"
+    },
+    {
+        "id": "5",
+        "full_name": "Hoàng Thị Dung",
+        "email": "hoangthidung@example.com",
+        "password": "mypassword123",
+        "phone_number": "0971234567",
+        "address": "567 Hai Bà Trưng, Cần Thơ",
+        "country": "Vietnam"
+    },
+    {
+        "id": "6",
+        "full_name": "Võ Thành Đạt",
+        "email": "vothanhdat@example.com",
+        "password": "password456",
+        "phone_number": "0923456789",
+        "address": "234 Phan Chu Trinh, Nha Trang",
+        "country": "Vietnam"
+    },
+    {
+        "id": "7",
+        "full_name": "Nguyễn Hải Anh",
+        "email": "nguyenhaianh@example.com",
+        "password": "strongpass789",
+        "phone_number": "0919876543",
+        "address": "891 Võ Văn Kiệt, Huế",
+        "country": "Vietnam"
+    },
+    {
+        "id": "8",
+        "full_name": "Bùi Văn Phúc",
+        "email": "buivanphuc@example.com",
+        "password": "qwerty123",
+        "phone_number": "0938765432",
+        "address": "678 Lý Thái Tổ, Hải Phòng",
+        "country": "Vietnam"
+    },
+    {
+        "id": "9",
+        "full_name": "Đặng Thu Huyền",
+        "email": "dangthuhuyen@example.com",
+        "password": "huyenpass456",
+        "phone_number": "0945671234",
+        "address": "123 Nguyễn Trãi, Bình Dương",
+        "country": "Vietnam"
+    },
+    {
+        "id": "10",
+        "full_name": "Phan Văn Tùng",
+        "email": "phanvantung@example.com",
+        "password": "tungsecure789",
+        "phone_number": "0985674321",
+        "address": "456 Phạm Văn Đồng, Hà Nội",
+        "country": "Vietnam"
+    }
+]

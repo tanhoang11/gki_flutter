@@ -1,0 +1,50 @@
+[
+    {
+      "_id": "6739b06df8a9dc2809b04a65",
+      "tripName": "Hội An cổ kính",
+      "time": "2024-11-05T00:00:00.000Z",
+      "days": 2,
+      "price": 800,
+      "avatar": "https://example.com/images/hoian.jpg",
+      "updatedAt": "2024-11-17T14:31:35.633Z"
+    },
+    {
+      "_id": "57bd8a45e5a9dc2897f24b12",
+      "tripName": "Đà Lạt thơ mộng",
+      "time": "2024-11-10T00:00:00.000Z",
+      "days": 3,
+      "price": 1200,
+      "avatar": "https://example.com/images/dalat.jpg",
+      "updatedAt": "2024-11-20T10:00:00.000Z"
+    },
+    {
+      "_id": "7c6d1234f8a9dc2809c78b65",
+      "tripName": "Sa Pa bồng bềnh sương",
+      "time": "2024-11-20T00:00:00.000Z",
+      "days": 4,
+      "price": 1500,
+      "avatar": "https://example.com/images/sapa.jpg",
+      "updatedAt": "2024-11-22T15:45:12.000Z"
+    },
+    {
+      "_id": "9e82f06df8a9dc2808b93c23",
+      "tripName": "Ninh Bình - Chùa Bái Đính",
+      "time": "2024-11-15T00:00:00.000Z",
+      "days": 2,
+      "price": 900,
+      "avatar": "https://example.com/images/ninhbinh.jpg",
+      "updatedAt": "2024-11-22T08:30:00.000Z"
+    },
+    {
+      "_id": "1d59b16df8a9dc2807d45f01",
+      "tripName": "Phú Quốc - Thiên đường biển",
+      "time": "2024-11-01T00:00:00.000Z",
+      "days": 5,
+      "price": 2500,
+      "avatar": "https://example.com/images/phuquoc.jpg",
+      "updatedAt": "2024-11-20T09:00:00.000Z"
+    }
+  ]
+  
+
+
