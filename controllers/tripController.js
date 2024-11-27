@@ -42,17 +42,21 @@ exports.updateTrip = async(req, res) => {
 };
 
 // Xóa trip theo ID
-exports.deleteTrip = async(req, res) => {
+exports.deleteTrip = async (req, res) => {
     const tripId = req.params.id;
-
-    try {
-        const deletedTrip = await Trip.findByIdAndDelete(tripId);
-        if (!deletedTrip) {
-            return res.status(404).json({ message: "Trip không tìm thấy" });
-        }
-        res.status(200).json({ message: "Trip đã bị xóa thành công", deletedTrip });
-    } catch (error) {
-        console.error("Lỗi khi xóa trip:", error);
-        res.status(500).json({ message: "Có lỗi xảy ra khi xóa trip" });
+  
+    if (!mongoose.Types.ObjectId.isValid(tripId)) {
+      return res.status(400).json({ message: "ID không hợp lệ" });
     }
-};
+  
+    try {
+      const deletedTrip = await Trip.findByIdAndDelete(tripId);
+      if (!deletedTrip) {
+        return res.status(404).json({ message: "Trip không tìm thấy" });
+      }
+      res.status(200).json({ message: "Trip đã bị xóa thành công", deletedTrip });
+    } catch (error) {
+      console.error("Lỗi khi xóa trip:", error);
+      res.status(500).json({ message: "Có lỗi xảy ra khi xóa trip" });
+    }
+  };
